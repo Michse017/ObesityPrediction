@@ -14,8 +14,14 @@ This project was developed as part of an Artificial Intelligence university work
 
 ## Project Structure
 
-ObesityPredictionProject/ ├── data/ │ └── ObesityDataSet.csv # Original dataset with 2111 records ├── src/ │ ├── data_preprocessing.py # Data loading, cleaning, and preprocessing │ └── model.py # Model training and evaluation functions ├── images/ │ ├── feature_importance.png # Bar chart of model coefficients (feature importance) │ └── regression_plot.png # Scatter plot: Actual vs. Predicted values (regression) ├── main.py # Main script that coordinates the entire process └── README.md # Project documentation (this file)
+The project folder contains the following key files:
 
+- **ObesityDataSet.csv** – The dataset with 2111 records.
+- **data_preprocessing.py** – Contains functions for loading, cleaning, and preprocessing the data.
+- **model.py** – Contains functions for training and evaluating the models.
+- **main.py** – The main script that integrates all components and runs the entire process.
+
+This simple structure ensures that all components are directly accessible in one folder, making the project easy to manage and execute.
 
 ---
 
