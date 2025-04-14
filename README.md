@@ -14,14 +14,14 @@ This project was developed as part of an Artificial Intelligence university work
 
 ## Project Structure
 
-The project folder contains the following key files:
+This project folder contains three key files:
 
 - **ObesityDataSet.csv** – The dataset with 2111 records.
-- **data_preprocessing.py** – Contains functions for loading, cleaning, and preprocessing the data.
-- **model.py** – Contains functions for training and evaluating the models.
-- **main.py** – The main script that integrates all components and runs the entire process.
+- **ObesityPrediction.ipynb** – The complete Jupyter Notebook containing the entire analysis, model training, evaluation, and visualizations.
+- **README.md** – This documentation file.
 
-This simple structure ensures that all components are directly accessible in one folder, making the project easy to manage and execute.
+All files are located in the same folder, providing a simple and straightforward structure for managing and executing the project.
+
 
 ---
 
@@ -62,7 +62,7 @@ The Linear Regression model's coefficients reveal the importance of each feature
 
 A scatter plot compares actual obesity levels against the model's continuous predictions for the test set. The red dashed line represents the ideal prediction (y = x).
 
-![Regression Plot](images/regression_plot.png)
+![Regression Plot](regression_plot.png)
 
 *Figure: Actual vs Predicted Obesity Levels*
 
