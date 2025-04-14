@@ -54,10 +54,6 @@ All files are located in the same folder, providing a simple and straightforward
 
 The Linear Regression model's coefficients reveal the importance of each feature. Positive coefficients indicate that an increase in the feature value raises the predicted obesity level, while negative coefficients suggest that higher values reduce it.
 
-![Feature Importance](images/feature_importance.png)
-
-*Figure: Feature Importance Bar Chart showing model coefficients.*
-
 ### Regression Results
 
 A scatter plot compares actual obesity levels against the model's continuous predictions for the test set. The red dashed line represents the ideal prediction (y = x).
@@ -74,19 +70,5 @@ A scatter plot compares actual obesity levels against the model's continuous pre
 - **Mean Absolute Error (MAE)**: Represents the average absolute differences.
 - **R² Score**: Indicates the proportion of variance in the dependent variable that is predictable from the independent variables.
 
-For example, in our evaluations we obtained:
-- MSE on test set: ~0.2023
-- MSE on final evaluation set: ~0.1976
-
-These values suggest that the model achieves a low average error.
-
 ---
 
-## How to Run the Project
-
-1. **Install Dependencies**
-
-   Ensure you have Python 3.12+ installed. Install required libraries with:
-
-   ```bash
-   pip install -r requirements.txt
